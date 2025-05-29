@@ -4,8 +4,8 @@
 
 ## Current Status
 - Refactoring code structure
-- Improving documentation and examples
-- More content will be released gradually
+- Improving documentation and examples.
+- More content will be released gradually.
 
 
 A brief demonstration of our method is available here:
