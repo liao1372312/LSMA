@@ -8,6 +8,7 @@
 - Preparing fully anonymized demo materials
 
 
+## Demonstration Video
 A brief demonstration of our method is available here:
 - All sensitive dataset samples have been replaced with synthetic data
 - Any identifiable personnel information has been removed (voice/face/names redacted)
