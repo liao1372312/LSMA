@@ -1,13 +1,15 @@
 # LSMA"
 
-🚧 Under active organization - code will be released progressively!
+🚧 Under Active Anonymization Processing - Code Release Coming Soon!
 
 ## Current Status
-- Refactoring code structure
-- Improving documentation and examples.
-- More content will be released gradually.
+- Conducting comprehensive data/code sanitization (removing sensitive operational details)
+- Refactoring architecture to ensure no confidential information remains
+- Preparing fully anonymized demo materials
 
 
 A brief demonstration of our method is available here:
+- All sensitive dataset samples have been replaced with synthetic data
+- Any identifiable personnel information has been removed (voice/face/names redacted)
 
 ![example](example.gif)
