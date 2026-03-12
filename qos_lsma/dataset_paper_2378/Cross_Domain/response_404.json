@@ -1,0 +1,32 @@
+{
+  "user_query": "I'm planning a road trip with my friends and we want to reduce our carbon footprint. Can you calculate the CO2e in Kg from using public transportation for a distance of 1000 km? Additionally, fetch the methane concentration data in the atmosphere for the past month. Also, convert the planet angle '67.34.0' to degree format.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Calculate the CO2e emissions in Kg from using public transportation for a distance of 1000 km.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "distanceInKm",
+        "transportationType"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the methane concentration data in the atmosphere for the past month.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "durationInDays",
+        "pollutantType"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Convert the planet angle '67.34.0' to degree format.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "angleInDMS"
+      ]
+    }
+  ]
+}

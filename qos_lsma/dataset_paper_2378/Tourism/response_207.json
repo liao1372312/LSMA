@@ -1,0 +1,32 @@
+{
+  "user_query": "I want to surprise my mom with a special dinner for her birthday.",
+  "domain": "Tourism",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Find top-rated restaurants in the user's city.",
+      "domain": "tourism",
+      "required_inputs": [
+        "user's city",
+        "cuisine preference"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Search for YouTube videos on cooking delicious meals.",
+      "domain": "tourism",
+      "required_inputs": [
+        "recipe ideas",
+        "cooking techniques"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Get the current exchange rate between US dollars and British pounds.",
+      "domain": "tourism",
+      "required_inputs": [
+        "currency pair (USD to GBP)"
+      ]
+    }
+  ]
+}

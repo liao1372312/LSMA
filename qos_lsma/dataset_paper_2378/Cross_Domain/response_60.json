@@ -1,0 +1,34 @@
+{
+  "user_query": "I'm planning a surprise birthday party for my best friend and I need some ideas for food and desserts. Suggest some creative dishes, desserts, and breweries that offer party-friendly spaces.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Research creative dishes suitable for a birthday party.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Research unique dessert options for a birthday celebration.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Identify local breweries that have party-friendly spaces for hosting events.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Compile a list of all the researched food, desserts, and breweries into a coherent presentation for planning the party.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "results from step 1",
+        "results from step 2",
+        "results from step 3"
+      ]
+    }
+  ]
+}

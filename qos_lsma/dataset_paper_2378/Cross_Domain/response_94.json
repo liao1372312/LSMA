@@ -1,0 +1,36 @@
+{
+  "user_query": "I want to gather population data for Egypt, France, Brazil, and the current world population for a geography lesson.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the population data for Egypt.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "country_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the population data for France.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "country_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the population data for Brazil.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "country_name"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Fetch the current world population data.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

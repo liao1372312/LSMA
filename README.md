@@ -1,13 +1,8 @@
-# LSMA"
+# QoS-LSMA
 
-🚧 Under active organization - code will be released progressively!
+Official repository for **QoS-LSMA: QoS-Aware Microservice Composition with Long-Short Memory-Augmented Multi-Agent Systems**.
 
-## Current Status
-- Refactoring code structure
-- Improving documentation and examples.
-- More content will be released gradually.
+## Introduction
+This repository currently releases the **core source code** and **core datasets** of QoS-LSMA.
 
-
-A brief demonstration of our method is available here:
-
-![example](example.gif)
+The **full codebase** and **complete datasets** will be made publicly available upon acceptance of the paper.

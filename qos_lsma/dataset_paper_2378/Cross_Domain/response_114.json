@@ -1,0 +1,29 @@
+{
+  "user_query": "I'm planning a road trip and I want to create a playlist with songs from different genres. Can you help me find songs from various genres using the Soundcloud API? Additionally, fetch me the latest Ireland Songs chart information to stay updated with the music scene.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch songs from various genres using the Soundcloud API.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "genres"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch the latest Ireland Songs chart information.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Combine the fetched songs from different genres and the latest Ireland Songs chart into a single playlist.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "songs_list",
+        "ireland_chart"
+      ]
+    }
+  ]
+}

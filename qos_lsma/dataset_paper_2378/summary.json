@@ -1,0 +1,34 @@
+{
+  "Tourism": {
+    "source_valid": 1093,
+    "target": 518,
+    "exported": 518,
+    "upsampled": 0
+  },
+  "Finance": {
+    "source_valid": 725,
+    "target": 463,
+    "exported": 463,
+    "upsampled": 0
+  },
+  "Technology": {
+    "source_valid": 2793,
+    "target": 497,
+    "exported": 497,
+    "upsampled": 0
+  },
+  "Medical": {
+    "source_valid": 254,
+    "target": 432,
+    "exported": 432,
+    "upsampled": 178
+  },
+  "Cross_Domain": {
+    "source_valid": 423,
+    "target": 468,
+    "exported": 468,
+    "upsampled": 45
+  },
+  "total_exported": 2378,
+  "paper_target_total": 2378
+}

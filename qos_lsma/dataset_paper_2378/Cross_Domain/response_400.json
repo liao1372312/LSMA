@@ -1,0 +1,30 @@
+{
+  "user_query": "I'm planning a romantic dinner for two.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Query the current weather for the specified city.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "city_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Based on the current weather, suggest cocktail recipes that are suitable for the conditions.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "weather_conditions"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the detailed recipe for cocktail with ID 45.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "cocktail_id"
+      ]
+    }
+  ]
+}

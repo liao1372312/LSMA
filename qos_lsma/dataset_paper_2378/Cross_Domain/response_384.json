@@ -1,0 +1,44 @@
+{
+  "user_query": "I want to plan a memorable bachelorette party.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Research unique bachelorette party ideas.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Compile a list of games suitable for a bachelorette party.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "List creative decoration ideas for the party.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Find energetic songs for a bachelorette party playlist.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 5,
+      "description": "Obtain card information for purchasing party supplies online.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 6,
+      "description": "Compile all gathered ideas and finalize the bachelorette party plan.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "results from tasks 1-4"
+      ]
+    }
+  ]
+}

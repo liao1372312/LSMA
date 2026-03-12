@@ -1,0 +1,30 @@
+{
+  "user_query": "Analyze sentiment of customer reviews and fetch PAN card OCR response.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Collect all customer reviews related to the new product.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "product_id"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Analyze the sentiment of the collected customer reviews to generate sentiment scores.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "review_data"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the response for the PAN card OCR request using the provided ID.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "request_id"
+      ]
+    }
+  ]
+}

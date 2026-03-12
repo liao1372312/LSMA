@@ -1,0 +1,27 @@
+{
+  "user_query": "I'm organizing a charity event to raise funds for a local shelter and need to keep attendees informed about event details.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the timetoken from the PubNub Network API to synchronize event updates.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the short URL details from my SMSAPI.com account to share the donation link with participants.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Send out notifications to attendees with event details and the donation link using the retrieved short URL.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "timed_updates",
+        "short_url"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "user_query": "I'm planning a surprise party for my sister and I want to create a deck of cards with personalized messages on each card. Can you fetch me all the cards with their names, numbers, meanings, and images? Also, provide me with a random joke to add some humor to the messages.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch all available playing cards including their names, numbers, meanings, and images.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve a random joke to include in the personalized messages.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Combine the fetched card details and the random joke to create personalized messages.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "card_details",
+        "joke"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "user_query": "I'm planning a surprise anniversary party for my parents and I need some suggestions for decorations and gifts.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch trending images of anniversary party decorations.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "event_type",
+        "location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather unique gift ideas for anniversary celebrations.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "occasion",
+        "recipient_info"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Compile a list of popular love songs suitable for an anniversary party.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "event_type",
+        "genre_preferences"
+      ]
+    }
+  ]
+}

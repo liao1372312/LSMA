@@ -1,0 +1,40 @@
+{
+  "user_query": "I'm planning a surprise anniversary party for my parents and I want to create a slideshow of their memorable moments.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Find old photos of parents from their Facebook account.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "parent_name",
+        "facebook_account"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find old photos of parents from their Instagram account.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "parent_name",
+        "instagram_account"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Validate the email addresses of parents to ensure correct contact information.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "parent_email"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Gather carrier information for the parents to ensure smooth communication.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "parent_phone_number"
+      ]
+    }
+  ]
+}

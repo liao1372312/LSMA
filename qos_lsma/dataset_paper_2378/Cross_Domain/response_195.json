@@ -1,0 +1,22 @@
+{
+  "user_query": "I want to translate a sentence from English to Italian and find synonyms.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Translate the provided sentence from English to Italian.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "sentence_to_translate"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find synonyms for the translated sentence.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "translated_sentence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "user_query": "I'm organizing a movie-themed event for my company and I need some interesting content. Fetch me the latest news articles related to movies. Additionally, provide me with information about the awards won by popular actors.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the latest news articles related to movies.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Gather information about the awards won by popular actors.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Compile the latest movie news and award information into a summarized report for the event.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "news articles from step 1",
+        "award information from step 2"
+      ]
+    }
+  ]
+}

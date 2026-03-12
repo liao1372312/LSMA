@@ -1,0 +1,27 @@
+{
+  "user_query": "I'm planning a family game night and I need some unique ideas.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch a list of random Ukrainian words and their meanings.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch the latest data from the APIDeveloper tool to get inspiration for fun games and activities.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Compile and present unique game ideas using the fetched Ukrainian words and activity data.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "result_from_step_1",
+        "result_from_step_2"
+      ]
+    }
+  ]
+}

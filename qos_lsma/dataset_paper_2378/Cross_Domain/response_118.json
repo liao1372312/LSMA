@@ -1,0 +1,18 @@
+{
+  "user_query": "I want to obtain a comprehensive list of football team names and their short names from various leagues and countries.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Call the All Teams API to fetch a complete list of football teams and their short names from various leagues and countries.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Call the First 25 Teams API to fetch the first 25 football team names and their short names for users with a basic plan.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

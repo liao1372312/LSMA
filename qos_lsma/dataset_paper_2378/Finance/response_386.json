@@ -1,0 +1,37 @@
+{
+  "user_query": "I'm a small business owner and I need to streamline my employees' schedules. Fetch the payment cards information associated with the employees in the Human Resources department and provide me with the necessary details. Also, suggest some employee schedule software that can help me improve their productivity.",
+  "domain": "Finance",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the payment card information for all employees in the Human Resources department.",
+      "domain": "finance",
+      "required_inputs": [
+        "department_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Provide detailed information about the fetched payment card data such as type, limits, and associations.",
+      "domain": "finance",
+      "required_inputs": [
+        "payment_card_data"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Research and suggest employee schedule management software options that can improve productivity.",
+      "domain": "finance",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Compile a report combining payment card details and suggested software for employee scheduling.",
+      "domain": "finance",
+      "required_inputs": [
+        "payment_card_details",
+        "schedule_software_suggestions"
+      ]
+    }
+  ]
+}

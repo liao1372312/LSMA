@@ -1,0 +1,18 @@
+{
+  "user_query": "I'm planning a surprise party for my colleague's birthday.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch funny birthday jokes from the Chuck Norris API.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Retrieve the number of members in a popular Telegram group related to party planning.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

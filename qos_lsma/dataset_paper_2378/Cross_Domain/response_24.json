@@ -1,0 +1,30 @@
+{
+  "user_query": "I'm working on a music research project and I need lyrics and related data for a specific song. Can you retrieve the lyrics and provide information about the song? Also, suggest some popular songs from the Ecuador Songs chart.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Retrieve the lyrics for the specified song.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "song_title",
+        "artist_name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather additional information about the song, such as release date, album, and genre.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "song_title",
+        "artist_name"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Fetch the current popular songs from the Ecuador Songs chart.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

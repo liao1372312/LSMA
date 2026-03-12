@@ -1,0 +1,34 @@
+{
+  "user_query": "I want to gather the latest sports matches and odds for sports betting and suggest popular races in the Formula 1 schedule.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the latest sports matches and their odds for betting.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Process and summarize the fetched sports matches and odds data.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "output from subtask 1"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Retrieve the schedule of popular races in the Formula 1 championship.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 4,
+      "description": "Compile a list of the most popular races based on the Formula 1 schedule.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "output from subtask 3"
+      ]
+    }
+  ]
+}

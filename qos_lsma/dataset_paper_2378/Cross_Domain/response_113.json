@@ -1,0 +1,26 @@
+{
+  "user_query": "I want to create a special cocktail menu for a surprise birthday party and design personalized invitations.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch a list of cocktail recipes including names, images, and detailed recipes.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Fetch relevant images of cocktails for use in invitations.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Design personalized party invitations using the fetched cocktail images.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "cocktail_images"
+      ]
+    }
+  ]
+}

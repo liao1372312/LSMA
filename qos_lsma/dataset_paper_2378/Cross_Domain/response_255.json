@@ -1,0 +1,24 @@
+{
+  "user_query": "I'm planning a brewery tour with my family in Asheville, North Carolina, and we're looking for breweries that are dog-friendly and offer food service. Can you provide me with a list of such breweries? Additionally, I would like to know the race details for race ID 207660, including the horses, trainers, and their positions.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Search for dog-friendly breweries in Asheville, North Carolina that offer food service.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "location",
+        "dog_friendly",
+        "food_service"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Request race details for race ID 207660, including information about horses, trainers, and their positions.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "race_id"
+      ]
+    }
+  ]
+}

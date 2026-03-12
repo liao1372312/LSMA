@@ -1,0 +1,23 @@
+{
+  "user_query": "I want to gather information for my project.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Extract education details and job titles of a specific person from LinkedIn.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "LinkedIn profile URL",
+        "specific person name"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Find the IP address associated with a specific domain name.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "domain name"
+      ]
+    }
+  ]
+}

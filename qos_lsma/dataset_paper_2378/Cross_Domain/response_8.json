@@ -1,0 +1,24 @@
+{
+  "user_query": "I'm organizing a cocktail workshop for my colleagues and I need some unique recipes.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch a list of unique cocktail recipes, including names and images.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 2,
+      "description": "Suggest websites for cocktail-making equipment.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    },
+    {
+      "id": 3,
+      "description": "Provide tips on garnishing cocktails.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

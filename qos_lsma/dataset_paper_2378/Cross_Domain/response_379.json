@@ -1,0 +1,23 @@
+{
+  "user_query": "I want to organize a company-wide volunteering day to help the homeless community.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Find homeless shelters near the company office location in San Francisco.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "office_location"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Gather food prices in San Francisco to arrange meals for the volunteers.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "food_items",
+        "location"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "user_query": "My company is conducting a thorough background check on potential employees. Can you search for screenings that have been completed and fetch the individual customer details for each screening? Additionally, provide me with the 24-hour tickers for the QuantaEx market data to stay updated on the latest trading trends.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Query the background screening service for completed screenings.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "company_id"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Fetch individual customer details for each completed screening based on the results from Step 1.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "screening_ids"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Request the latest 24-hour tickers for the QuantaEx market data.",
+      "domain": "cross-domain",
+      "required_inputs": []
+    }
+  ]
+}

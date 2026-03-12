@@ -1,0 +1,30 @@
+{
+  "user_query": "I am planning a surprise birthday party for my best friend and I want to gather some interesting facts about their favorite Bible verse. Can you fetch the verse text and provide me with a summary of its content? Additionally, I would like to know if their phone number is registered on WhatsApp.",
+  "domain": "Cross_Domain",
+  "TaskList": [
+    {
+      "id": 1,
+      "description": "Fetch the text of the favorite Bible verse.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "BibleVerseID"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Provide a summary of the content of the fetched Bible verse.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "FetchedVerseText"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Check whether the specified phone number is registered on WhatsApp.",
+      "domain": "cross-domain",
+      "required_inputs": [
+        "FriendPhoneNumber"
+      ]
+    }
+  ]
+}
